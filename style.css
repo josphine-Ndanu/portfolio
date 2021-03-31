@@ -1,3 +1,7 @@
 body{
-    background-image: url('./images/bg2.jpeg');
+    background-image: url('./images/realp.jpg');
+}
+#name img{
+    height: 400px;
+    background-color: blue;
 }
