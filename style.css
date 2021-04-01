@@ -66,10 +66,18 @@ nav a.active {
 #name h2 {
     padding-top: 150px;
 }
-
-
 #home {
     height: 100vh;
     background-color: black;
     padding-top: 150px;
+}
+#projects{
+    height: 100vh;
+    padding-top: 100px;
+}
+#projects h1{
+    
+}
+#about{
+    height: 100vh;
 }
