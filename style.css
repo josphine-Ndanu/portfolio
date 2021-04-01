@@ -1,6 +1,8 @@
-body{
+html body {
+    height: 100%;
     margin: 0%;
 }
+
 nav {
     opacity: 0.8;
     margin-bottom: 100px;
@@ -25,22 +27,30 @@ nav ul li a {
     text-decoration: none;
     padding: 30px;
 }
+nav a:hover {
+    color: white;
+}
+nav a.active {
+    background-color: black;
+    color: white;
+}
 
 #name img {
-    height: 500px;
+    height: 400px;
     float: left;
     padding-right: 150px;
+   
 }
 
 #name {
-    height: 500px;
+    height: 400px;
     width: 70%;
     margin: auto;
     background-color: rgb(229, 228, 226);
-    box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px rgb(112, 112, 172);
     font-size: 30px;
     color: blue;
-    
+
 }
 
 #name h2 {
@@ -48,9 +58,8 @@ nav ul li a {
 }
 
 
-.home {
-    
+#home {
+    height: 100vh;
     background-color: black;
-    
-}
 
+}
