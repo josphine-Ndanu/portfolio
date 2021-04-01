@@ -1,12 +1,9 @@
-body {
-    background-color:  rgb(0, 0, 63);
-    opacity: 0.4;
+body{
+    margin: 0%;
 }
-
 nav {
-    background-color: rgb(0, 0, 63);
     opacity: 0.8;
-
+    margin-bottom: 100px;
 }
 
 nav ul {
@@ -14,6 +11,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     text-decoration: none;
+    margin: 0;
 }
 
 nav ul li {
@@ -22,25 +20,37 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: blue;
+    font-size: 20px;
     text-decoration: none;
     padding: 30px;
 }
 
 #name img {
-    height: 400px;
+    height: 500px;
     float: left;
     padding-right: 150px;
 }
 
 #name {
-    height: 400px;
-    width: 60%;
+    height: 500px;
+    width: 70%;
     margin: auto;
     background-color: rgb(229, 228, 226);
-
+    box-shadow: 0 0 10px grey;
+    font-size: 30px;
+    color: blue;
+    
 }
 
 #name h2 {
     padding-top: 150px;
 }
+
+
+.home {
+    
+    background-color: black;
+    
+}
+
