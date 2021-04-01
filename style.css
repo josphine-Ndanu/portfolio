@@ -68,7 +68,7 @@ nav a.active {
 }
 #home {
     height: 100vh;
-    background-color: black;
+    background-color: grey;
     padding-top: 150px;
 }
 #projects{
@@ -84,13 +84,27 @@ nav a.active {
 }
 #projects img{
     height: 300px;
-   
+    padding: 0px;
 }
 .allprojects{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 80%;
+  
     padding: 20px;
-
+    height: 350px;
+   
+}
+.project1, .project2, .project3 {
+    height: 450px;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    opacity: 0.8;
+    
+}
+#projects p{
+    font-size: 20px;
+    padding: 10px;
 }
