@@ -2,19 +2,21 @@ html body {
     height: 100%;
     margin: 0%;
 }
-.navbar{
+
+.navbar {
     background-color: black;
+
     position: fixed;
     width: 100%;
-   
+
     overflow: hidden;
     top: 0;
 }
 
 nav {
     opacity: 0.8;
-    
-    
+
+
 }
 
 nav ul {
@@ -41,8 +43,9 @@ nav a:hover {
     color: white;
 }
 
-nav a.active {
-    color: white;
+nav a:active {
+    background-color: white;
+    color: black;
 }
 
 #name img {
@@ -61,50 +64,69 @@ nav a.active {
     font-size: 30px;
     color: blue;
 
+
 }
 
 #name h2 {
     padding-top: 150px;
 }
+
 #home {
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(26, 25, 25);
     padding-top: 150px;
 }
-#projects{
+
+#projects {
     height: 100vh;
     padding-top: 100px;
-   
+
 }
-#projects h1{
+
+#projects h1 {
     text-align: center;
 }
-#about{
+
+#about {
     height: 100vh;
 }
-#projects img{
+
+#projects img {
     height: 300px;
     padding: 0px;
+    border-radius: 20% 20% 0 0;
 }
-.allprojects{
+
+.allprojects {
     display: flex;
     justify-content: space-between;
     margin: auto;
-  
+
     padding: 20px;
     height: 350px;
-   
+
 }
-.project1, .project2, .project3 {
+
+.project1,
+.project2,
+.project3 {
     height: 450px;
     width: fit-content;
     margin: 0;
     padding: 0;
     background-color: lightgray;
     opacity: 0.8;
-    
+    border-radius: 20%;
 }
-#projects p{
+
+#projects p {
     font-size: 20px;
     padding: 10px;
+    text-align: center;
+}
+
+#projects p a {
+    text-decoration: none;
+    color: blue;
+
 }
