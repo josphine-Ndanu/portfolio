@@ -74,10 +74,23 @@ nav a.active {
 #projects{
     height: 100vh;
     padding-top: 100px;
+   
 }
 #projects h1{
-    
+    text-align: center;
 }
 #about{
     height: 100vh;
+}
+#projects img{
+    height: 300px;
+   
+}
+.allprojects{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+
 }
