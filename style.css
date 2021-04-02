@@ -53,10 +53,18 @@ nav a:active  {
     height: 450px;
     float: left;
     padding-right: 150px;
-
+    
 }
 
-#name {
+#name{
+    color: white;
+    font-size: 3em;
+    font-family: cursive;
+    height: 450px;
+    width: 70%;
+    margin: auto;
+}
+/*#name {
     height: 450px;
     width: 70%;
     margin: auto;
@@ -66,15 +74,19 @@ nav a:active  {
     color: blue;
 
 
-}
+}*/
 
+#name em{
+    color: orangered;
+}
 #name h2 {
-    padding-top: 100px;
+    padding-top: 80px;
+    color: blue;
 }
 
 #home {
     height: 100vh;
-    background-color: rgb(26, 25, 25);
+    background-color: black;
     padding-top: 150px;
 }
 
