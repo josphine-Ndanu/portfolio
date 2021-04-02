@@ -41,9 +41,10 @@ nav ul li a {
 
 nav a:hover {
     color: white;
+    
 }
 
-nav a:active {
+nav a:active  {
     background-color: white;
     color: black;
 }
@@ -83,9 +84,6 @@ nav a:active {
 
 }
 
-#projects h1 {
-    text-align: center;
-}
 
 #about {
     height: 100vh;
@@ -129,4 +127,13 @@ nav a:active {
     text-decoration: none;
     color: blue;
 
+}
+h1{
+    color: blue;
+    font-size: 3em;
+    text-align: center;
+}
+#about{
+    height: 100vh;
+    padding-top: 100px;
 }
