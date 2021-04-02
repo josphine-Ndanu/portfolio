@@ -148,3 +148,6 @@ h1{
     
     font-size: 2em;
 }
+.me ul li{
+    list-style: none;
+}
