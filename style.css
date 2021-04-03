@@ -104,7 +104,7 @@ nav a:active {
     border-radius: 20% 20% 0 0;
 }
 
-.allprojects {
+/*.allprojects {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -113,11 +113,11 @@ nav a:active {
     height: 350px;
 
 }
-
+*/
 .project1,
 .project2,
 .project3 {
-    height: 450px;
+    height: 500px;
     width: fit-content;
     margin: 0;
     padding: 0;
@@ -130,6 +130,17 @@ nav a:active {
     font-size: 20px;
     padding: 10px;
     text-align: center;
+}
+#projects h2{
+    color: orangered;
+    text-align: center;
+    font-size: 2em;
+}
+#projects ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+      
 }
 
 #projects p a {
