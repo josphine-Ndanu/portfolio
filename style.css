@@ -164,3 +164,27 @@ h1 {
 .me ul li {
     list-style: none;
 }
+
+#footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    background-color: orangered;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 150px;
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    
+}
+#footer h2{
+    color: blue;
+}
