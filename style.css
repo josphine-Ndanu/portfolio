@@ -151,12 +151,15 @@ nav a:active {
         flex-direction: column;
 
     }
+    #projects{
+        margin-bottom: 150px;
+    }
 
     #projects ul li {
         padding: 20px;
     }
 
-    #home,
+    
     #projects,
     #about {
         height: inherit;
