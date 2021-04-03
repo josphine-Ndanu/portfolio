@@ -61,8 +61,8 @@ nav a:active {
     font-size: 3em;
     font-family: cursive;
     height: 450px;
-   
-    
+
+
 }
 
 /*#name {
@@ -131,16 +131,60 @@ nav a:active {
     padding: 10px;
     text-align: center;
 }
-#projects h2{
+
+#projects h2 {
     color: orangered;
     text-align: center;
     font-size: 2em;
 }
-#projects ul{
+
+#projects ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-      
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1353px) {
+    #projects ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #projects ul li {
+        padding: 20px;
+    }
+
+    #home,
+    #projects,
+    #about {
+        height: inherit;
+    }
+
+    #name img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #home {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    #name {
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
+     
 }
 
 #projects p a {
@@ -176,14 +220,15 @@ h1 {
     list-style: none;
 }
 
-#footer ul{
+#footer ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
 }
-#footer{
+
+#footer {
     background-color: orangered;
     margin-top: 110px;
     margin-bottom: 0px;
@@ -194,8 +239,9 @@ h1 {
     text-align: center;
     bottom: 0px;
     width: 100%;
-    
+
 }
-#footer h2{
+
+#footer h2 {
     color: blue;
 }
