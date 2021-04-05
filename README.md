@@ -25,7 +25,7 @@ HTML
 CSS
 
 ### Live Site
-View [live]()
+View [live](https://josphine-ndanu.github.io/portfolio/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) 
