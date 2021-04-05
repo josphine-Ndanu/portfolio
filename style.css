@@ -205,7 +205,7 @@ h1 {
 #about {
     height: 100vh;
     padding-top: 50px;
-    background-image: url('https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('./images/aboutbg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 
